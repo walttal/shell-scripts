@@ -1,4 +1,4 @@
-#localte in /etc/profile.d/
+#locate in /etc/profile.d/
 #tcsh shell profile scripts is ended by .csh
 if ( `echo $SHELL` != '/bin/sh' && `groups | grep -woP 'netadm'` == "netadm" ) then 
     #source /te-networking/netdev_alias_csh
